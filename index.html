@@ -510,7 +510,121 @@
             </li>
           </ul>
         </div>
+        <div class="button-subscribe-form">
+          <p class="subscribe-text">Subscribe</p>
+          <form class="subscribe-form">
+            <label>
+              <input
+                class="email-input"
+                type="email"
+                name="user-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe-btn" type="button">
+              Subscribe
+              <svg class="icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-telergram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="button" class="modal-close-btn">
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="feedback-title">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="feedback-form">
+          <div class="feedback-form-field-wrapper">
+            <lable for="user-name" class="feedback-form-lable">Name</lable>
+            <div class="feedback-form-input-wrapper">
+              <input
+                class="feedback-form-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+                required
+              />
+              <svg class="feedback-form-field-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="feedback-form-field-wrapper">
+            <lable for="user-phone" class="feedback-form-lable">Phone</lable>
+            <div class="feedback-form-input-wrapper">
+              <input
+                class="feedback-form-input"
+                type="tel"
+                name="user-phone"
+                id="user-phone"
+                required
+              />
+              <svg class="feedback-form-field-icon" width="13" height="13">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="feedback-form-field-wrapper">
+            <lable for="user-email" class="feedback-form-lable">Email</lable>
+            <div class="feedback-form-input-wrapper">
+              <input
+                class="feedback-form-input"
+                type="email"
+                name="user-email"
+                id="user-email"
+                required
+              />
+              <svg class="feedback-form-field-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="feedback-form-field-wrapper">
+            <lable for="user-comment" class="feedback-form-lable">Comment</lable
+            ><textarea
+              class="feedback-form-message"
+              type="text"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              required
+            ></textarea>
+          </div>
+          <div class="feedback-form-checkbox-wrapper">
+            <input
+              class="feedback-form-privacy-checkbox"
+              type="checkbox"
+              name="privacy-policy"
+              value="true"
+              id="privacy-policy"
+              required
+            />
+            <lable for="privacy-policy" class="feedback-form-checkbox-lable">
+              <span class="feedback-form-own-checkbox">
+                <svg
+                  class="feedback-form-own-checkbox-icon"
+                  width="10"
+                  height="8"
+                >
+                  <use href="./images/icons.svg#icon-tick"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="privacy-policy-link" href="">Privacy Policy</a>
+            </lable>
+          </div>
+          <button class="feedback-form-submit-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
