@@ -525,7 +525,7 @@ input {
 }
 .modal-close-icon:hover,
 .modal-close-icon:focus {
-  fill: #fff;
+  fill: #ffffff;
 }
 .feedback-title {
   font-weight: 500;
@@ -560,7 +560,7 @@ input {
   color: #8e8f99;
 }
 .feedback-form-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .feedback-form-input-wrapper {
   position: relative;
