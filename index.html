@@ -544,7 +544,7 @@
         </p>
         <form class="feedback-form">
           <div class="feedback-form-field-wrapper">
-            <lable for="user-name" class="feedback-form-lable">Name</lable>
+            <label for="user-name" class="feedback-form-lable">Name</label>
             <div class="feedback-form-input-wrapper">
               <input
                 class="feedback-form-input"
@@ -559,7 +559,7 @@
             </div>
           </div>
           <div class="feedback-form-field-wrapper">
-            <lable for="user-phone" class="feedback-form-lable">Phone</lable>
+            <label for="user-phone" class="feedback-form-lable">Phone</label>
             <div class="feedback-form-input-wrapper">
               <input
                 class="feedback-form-input"
@@ -574,7 +574,7 @@
             </div>
           </div>
           <div class="feedback-form-field-wrapper">
-            <lable for="user-email" class="feedback-form-lable">Email</lable>
+            <label for="user-email" class="feedback-form-lable">Email</label>
             <div class="feedback-form-input-wrapper">
               <input
                 class="feedback-form-input"
@@ -589,10 +589,11 @@
             </div>
           </div>
           <div class="feedback-form-field-wrapper">
-            <lable for="user-comment" class="feedback-form-lable">Comment</lable
-            ><textarea
+            <label for="user-comment" class="feedback-form-lable"
+              >Comment</label
+            >
+            <textarea
               class="feedback-form-message"
-              type="text"
               name="user-comment"
               id="user-comment"
               placeholder="Text input"
@@ -601,14 +602,13 @@
           </div>
           <div class="feedback-form-checkbox-wrapper">
             <input
-              class="feedback-form-privacy-checkbox"
-              type="checkbox"
+              class="feedback-form-privacy-checkbox hidden-box"
               name="privacy-policy"
               value="true"
               id="privacy-policy"
               required
             />
-            <lable for="privacy-policy" class="feedback-form-checkbox-lable">
+            <label for="privacy-policy" class="feedback-form-checkbox-lable">
               <span class="feedback-form-own-checkbox">
                 <svg
                   class="feedback-form-own-checkbox-icon"
@@ -620,7 +620,7 @@
               </span>
               I accept the terms and conditions of the
               <a class="privacy-policy-link" href="">Privacy Policy</a>
-            </lable>
+            </label>
           </div>
           <button class="feedback-form-submit-btn" type="submit">Send</button>
         </form>
