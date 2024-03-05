@@ -562,6 +562,9 @@ input {
 .feedback-form-field-wrapper {
   margin-bottom: 8px;
 }
+.feedback-form-field-wrapper-comments {
+  margin-bottom: 16px;
+}
 .feedback-form-input-wrapper {
   position: relative;
 }
